@@ -1,9 +1,9 @@
 // src/index.js
 const express = require('express');
-const sequelize = require('./db');
-const Airport = require('./models/Airport');
-const City = require('./models/City');
-const Country = require('./models/Country');
+const sequelize = require('./src/db');
+const Airport = require('./src/models/Airport');
+const City = require('./src/models/City');
+const Country = require('./src/models/Country');
 
 const app = express();
 const port = 3000;
